@@ -10,8 +10,8 @@ if __name__ == '__main__':
 
 
         # Sample authors
-    ahmed = Author("Abby")
-    zara = Author("Moraa")
+    abby = Author("Abby")
+    moraa = Author("Moraa")
 
     # Sample magazines
     tech = Magazine("TechWorld", "Technology")
@@ -26,9 +26,9 @@ if __name__ == '__main__':
 
 
         # Test relationships
-    print("Abby's articles:", ahmed.articles())
-    print("Abby's magazines:", ahmed.magazines())
-    print("Abby's topic areas:", ahmed.topic_areas())
+    print("Abby's articles:", abby.articles())
+    print("Abby's magazines:", abby.magazines())
+    print("Abby's topic areas:", abby.topic_areas())
 
     print("TechWorld articles:", tech.articles())
     print("TechWorld contributors:", tech.contributors())
